@@ -56,14 +56,15 @@ Four ready-to-run examples are provided in the repository:
 Run any example after installing the package and replacing the bot token.
 
 ## Recommended Project Layout
+```text
 my_bot/
 ├── main.py                 # Bot initialization & entry point
 ├── config.py               # Environment variables & settings
 ├── handlers/               # Command, message, and callback handlers
 ├── keyboards/              # Reusable keyboard builders
 ├── middlewares/            # Custom middleware
-└── requirements.txt
-
+└── requirements.txt        # Python dependencies
+```
 ## License
 
 GPL v3. See the `LICENSE` file for details.
