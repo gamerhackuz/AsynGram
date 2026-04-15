@@ -56,10 +56,21 @@ Four ready-to-run examples are provided in the repository:
 Run any example after installing the package and replacing the bot token.
 
 ## Recommended Project Layout
+my_bot/
+├── main.py                 # Bot initialization & entry point
+├── config.py               # Environment variables & settings
+├── handlers/               # Command, message, and callback handlers
+├── keyboards/              # Reusable keyboard builders
+├── middlewares/            # Custom middleware
+└── requirements.txt
 
-Asyngram 100% asynchronous telegram bot framework from Mosa Atabek Sadullah
+## License
 
-Author:
-Firstname: Mosa(Musabek)
-Father's Name: Atabek(Otabek)
-Surname: Sadullah(Sadulla)
+GPL v3. See the `LICENSE` file for details.
+
+## Author
+
+Created by Musa Sadullah Atabek.
+Musobek Sadullayev Otabek Tomonidan yaratildi
+Создано Мусобеком Садуллаевым Отабеком 
+أنشأه موسى بن أتابك سعد الله 
